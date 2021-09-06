@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{ABC76A6C-B533-48B2-8AF7-2C97820CBE4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Werter.Estudos.TenTips.FirstTip", "Werter.Estudos.TenTips.FirstTip\Werter.Estudos.TenTips.FirstTip.csproj", "{54D9DA7F-67AF-4132-B1DA-F6374E57D8C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54D9DA7F-67AF-4132-B1DA-F6374E57D8C2} = {ABC76A6C-B533-48B2-8AF7-2C97820CBE4F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54D9DA7F-67AF-4132-B1DA-F6374E57D8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D9DA7F-67AF-4132-B1DA-F6374E57D8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D9DA7F-67AF-4132-B1DA-F6374E57D8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D9DA7F-67AF-4132-B1DA-F6374E57D8C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
