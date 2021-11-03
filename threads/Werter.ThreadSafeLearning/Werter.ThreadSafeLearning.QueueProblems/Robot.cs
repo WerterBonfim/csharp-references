@@ -8,10 +8,11 @@ namespace Werter.ThreadSafeLearning.QueueProblems
         public string Name { get; set; }
         public string Team { get; set; }
         public ConsoleColor TeamColor { get; set; }
+        public int GemstoneCount { get; set; }
 
         public override string ToString()
         {
-            return $"{Id}: Team: {Team}, {Name}";
+            return $"{Id}: Team: {Team}, {Name}, Gemstonecount: {GemstoneCount}";
     
     }
     }

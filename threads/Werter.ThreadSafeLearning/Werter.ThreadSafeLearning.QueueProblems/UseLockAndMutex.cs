@@ -56,10 +56,8 @@ namespace Werter.ThreadSafeLearning.QueueProblems
             Console.WriteLine();
 
 
-            Robot robot;
-            while (_robots.TryDequeue(out robot))
+            while (_robots.TryDequeue(out Robot robot))
             {
-                
                 Console.ForegroundColor = robot.TeamColor;
                 Console.WriteLine(robot.ToString());
             }

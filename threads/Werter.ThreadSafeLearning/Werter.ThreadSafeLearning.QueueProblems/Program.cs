@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             //WrongScenario.Execute(true);
-            UseLockAndMutex.Execute();
+            //UseLockAndMutex.Execute();
+            UseConcurrentDictionary.Execute();
         }
     }
 }
