@@ -3,23 +3,10 @@ using System.Collections.Concurrent;
 
 namespace Werter.ThreadSafeLearning.QueueProblems
 {
-    public class UseConcurrentDictionary
-    {
-        public static void Execute()
-        {
-            try
-            {
-                Demo();
-            }
-            catch (Exception ex)
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"Exception:{ex.Message}");
-                Console.ResetColor();
-            }
-        }
+    public class UseConcurrentDictionary : ExamplesBase
+    {       
 
-        private static void Demo()
+        public override void Demo()
         {
 
             //var robots = new Dictionary<int, Robot>();
@@ -120,7 +107,7 @@ namespace Werter.ThreadSafeLearning.QueueProblems
 
         }
 
-        private static void ListAllRobotsInDictionary(ConcurrentDictionary<int, Robot> robots)
+        private void ListAllRobotsInDictionary(ConcurrentDictionary<int, Robot> robots)
         {
             WriteHeaderToConsole("List all items in dictionary");
             Console.WriteLine($"Team count: {robots.Count}");
@@ -133,15 +120,9 @@ namespace Werter.ThreadSafeLearning.QueueProblems
             }
         }
 
-        private static void WriteHeaderToConsole(string headerText)
-        {
-            Console.ResetColor();
-            Console.WriteLine("-----------------------------");
-            Console.WriteLine(headerText);
-            Console.WriteLine("-----------------------------");
-        }
+       
 
-        private static Robot CreateSameRobot()
+        private Robot CreateSameRobot()
         {
 
 

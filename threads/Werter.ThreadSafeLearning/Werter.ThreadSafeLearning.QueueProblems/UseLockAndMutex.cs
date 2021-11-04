@@ -6,39 +6,20 @@ using System.Threading.Tasks;
 namespace Werter.ThreadSafeLearning.QueueProblems
 {
 
-    public class UseLockAndMutex
+    public sealed class UseLockAndMutex : ExamplesBase
     {
         private static Queue<Robot> _robots = new();
         private static object _lock = new object();
         private static Mutex _mutex = new Mutex();
         private static int _idCounter = 0;
 
-
-        public static void Execute()
+        public override void Demo()
         {
-
-            try
-            {
-
-                DemoMultiThread();
-
-            }
-            catch (Exception ex)
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"Exception:{ex.Message}");
-                Console.ResetColor();
-            }
-
-
-            Console.ReadKey();
+            DemoMultiThread();
         }
 
 
-
-
-
-        private static void DemoMultiThread()
+        private void DemoMultiThread()
         {
             Console.WriteLine("Use Queue with multi thread");
 
@@ -70,7 +51,7 @@ namespace Werter.ThreadSafeLearning.QueueProblems
         }
 
 
-        private static void MakeRoobot(string team, ConsoleColor color)
+        private void MakeRoobot(string team, ConsoleColor color)
         {
             lock (_lock)
             {
@@ -90,16 +71,18 @@ namespace Werter.ThreadSafeLearning.QueueProblems
         }
 
 
-        private static void SetupTeam1()
+        private void SetupTeam1()
         {
             for (int counter = 10; counter <= 14; counter++)
                 MakeRoobot("Starchasers", ConsoleColor.DarkCyan);
         }
 
-        private static void SetupTeam2()
+        private void SetupTeam2()
         {
             for (int counter = 20; counter <= 24; counter++)
                 MakeRoobot("Deltron", ConsoleColor.DarkYellow);
         }
+
+       
     }
 }

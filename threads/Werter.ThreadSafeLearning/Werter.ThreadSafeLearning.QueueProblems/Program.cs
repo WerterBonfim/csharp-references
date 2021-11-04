@@ -1,12 +1,17 @@
 ﻿namespace Werter.ThreadSafeLearning.QueueProblems
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            //WrongScenario.Execute(true);
-            //UseLockAndMutex.Execute();
-            UseConcurrentDictionary.Execute();
+            ExamplesBase cenario;
+
+            //cenario = new WrongScenario();
+            //cenario = new UseLockAndMutex();
+            //cenario = new UseConcurrentDictionary();
+            cenario = new UpdatingDataInConcurrentDictionary();
+
+            cenario.Execute();
         }
     }
 }
