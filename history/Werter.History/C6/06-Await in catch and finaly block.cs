@@ -4,11 +4,13 @@ using static System.Console;
 
 namespace C6
 {
-    public class Program
+    public class Demo06 : DemoBase
     {
-        static void Main(string[] args)
-        {
+       
 
+        public override void Execute()
+        {
+            new MyMath().Div(10, 0);
         }
     }
 
