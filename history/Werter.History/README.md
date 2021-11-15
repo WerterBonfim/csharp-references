@@ -16,3 +16,8 @@ Estudos baseado nos seguintes livros:
 ## C# 5
 
 * 
+
+
+## C# 7
+>C# 7.x Tips, Tricks, and Techniques By Simon Hughes PacktPub - Video Aula
+>c-sharpcorner https://www.c-sharpcorner.com/learn/learn-c-sharp-7x
