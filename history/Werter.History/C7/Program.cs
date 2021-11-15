@@ -10,7 +10,9 @@ namespace C7
 
             DemoBase demo;
 
-            demo = new Demo06();
+            // demo = new Demo06();
+            //demo = new Demo01();
+            demo = new Demo02();
 
 
             demo.Execute();
