@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Werter.LongWorkWebApi", "Werter.LongWorkWebApi\Werter.LongWorkWebApi.csproj", "{BCA09E83-5414-4F35-968C-B98768B22EAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Werter.LongWorkConsoleApp", "Werter.LongWorkConsoleApp\Werter.LongWorkConsoleApp.csproj", "{692C5400-E251-44D2-8B28-0CCDA5F8DA44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Werter.LongWork.Testes", "Werter.LongWork.Testes\Werter.LongWork.Testes.csproj", "{6E1DEF95-4718-46A6-B1B0-4F964D5FBADA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCA09E83-5414-4F35-968C-B98768B22EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA09E83-5414-4F35-968C-B98768B22EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA09E83-5414-4F35-968C-B98768B22EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA09E83-5414-4F35-968C-B98768B22EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692C5400-E251-44D2-8B28-0CCDA5F8DA44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692C5400-E251-44D2-8B28-0CCDA5F8DA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692C5400-E251-44D2-8B28-0CCDA5F8DA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692C5400-E251-44D2-8B28-0CCDA5F8DA44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E1DEF95-4718-46A6-B1B0-4F964D5FBADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1DEF95-4718-46A6-B1B0-4F964D5FBADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1DEF95-4718-46A6-B1B0-4F964D5FBADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E1DEF95-4718-46A6-B1B0-4F964D5FBADA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
