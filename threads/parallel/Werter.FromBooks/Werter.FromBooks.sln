@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Werter.ListasConcorrentes.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Werter.SharedServices", "Werter.SharedServices\Werter.SharedServices.csproj", "{9BC60FA3-A5A1-4515-879B-48D63B0819F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testes", "Testes\Testes.csproj", "{0B7D3B14-265E-485B-9193-7E63E85DDC5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{9BC60FA3-A5A1-4515-879B-48D63B0819F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BC60FA3-A5A1-4515-879B-48D63B0819F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BC60FA3-A5A1-4515-879B-48D63B0819F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B7D3B14-265E-485B-9193-7E63E85DDC5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B7D3B14-265E-485B-9193-7E63E85DDC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B7D3B14-265E-485B-9193-7E63E85DDC5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B7D3B14-265E-485B-9193-7E63E85DDC5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
