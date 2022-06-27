@@ -45,4 +45,11 @@ public class StockService
         Thread.Sleep(1000);
         return Convert.ToDecimal(Random.NextDouble());
     }
+
+    public static void ExcuteLongService(TimeSpan time, StockQuote stock)
+    {
+        Console.WriteLine($"Excuting log task for {stock}");
+        Thread.Sleep(time);
+        Console.WriteLine($"End task for {stock}");
+    }
 }

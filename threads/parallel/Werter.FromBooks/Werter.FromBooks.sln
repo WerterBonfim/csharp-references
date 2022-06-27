@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Werter.FromBooks.ConsoleApp", "Werter.FromBooks.ConsoleApp\Werter.FromBooks.ConsoleApp.csproj", "{1D6F6842-ECD7-4F02-BE58-3C296E2E83DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Werter.ListasConcorrentes.ConsoleApp", "Werter.ListasConcorrentes.ConsoleApp\Werter.ListasConcorrentes.ConsoleApp.csproj", "{E4C3B522-9DE5-4EF2-BE59-6078C4C11F4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Werter.SharedServices", "Werter.SharedServices\Werter.SharedServices.csproj", "{9BC60FA3-A5A1-4515-879B-48D63B0819F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{1D6F6842-ECD7-4F02-BE58-3C296E2E83DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D6F6842-ECD7-4F02-BE58-3C296E2E83DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D6F6842-ECD7-4F02-BE58-3C296E2E83DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C3B522-9DE5-4EF2-BE59-6078C4C11F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C3B522-9DE5-4EF2-BE59-6078C4C11F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C3B522-9DE5-4EF2-BE59-6078C4C11F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C3B522-9DE5-4EF2-BE59-6078C4C11F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC60FA3-A5A1-4515-879B-48D63B0819F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC60FA3-A5A1-4515-879B-48D63B0819F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC60FA3-A5A1-4515-879B-48D63B0819F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC60FA3-A5A1-4515-879B-48D63B0819F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
